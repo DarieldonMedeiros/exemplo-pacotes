@@ -1,4 +1,6 @@
-package lanchonete;
+package lanchonete.atendimento.cozinha;
+
+import lanchonete.atendimento.Atendente;
 
 public class Cozinheiro {
     public void adicionarLancheNoBalcao(){
@@ -27,7 +29,7 @@ public class Cozinheiro {
         prepararVitamina();
     }
 
-    public void selecionarIngredientesLanche(){
+    private void selecionarIngredientesLanche(){
         System.out.println("SELECIONANDO O PÃO, SALADA, OVO E CARNE");
     }
 
